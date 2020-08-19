@@ -1,0 +1,18 @@
+Version: 20.3.61.1649
+Id: Paessler.PRTG
+Name: PRTG Network Monitor
+AppMoniker: prtg
+Description: Desktop application for full control over multiple PRTG installations.
+Publisher: Paessler AG
+Author: Jakub @Ash258 Čábera
+License: Proprietary
+LicenseUrl: https://www.paessler.com/prtg/pricing
+Homepage: https://www.paessler.com/prtg
+Tags: 'prtg,paessler,monitoring'
+Installers:
+  - Arch: x86
+    Url: https://downloads.paessler.com/prtg/prtg_installer.exe
+    Sha256: a892e7291e280045bbc7079ff12abdc07809e53a302460fb0363e239c6beeabb
+    InstallerType: exe
+    Switches:
+      Custom: /NoInitialAutoDisco=1 /LANG="English" /LOG="log.txt" /licensekeyname="prtgtrial"
