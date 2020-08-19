@@ -2,7 +2,7 @@ Version: 20.3.61.1649
 Id: Paessler.PRTG
 Name: PRTG Network Monitor
 AppMoniker: prtg
-Description: Desktop application for full control over multiple PRTG installations.
+Description: Agentless network monitoring tool
 Publisher: Paessler AG
 Author: Jakub @Ash258 Čábera
 License: Proprietary
