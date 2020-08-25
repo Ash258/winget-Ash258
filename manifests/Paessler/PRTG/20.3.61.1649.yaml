@@ -15,4 +15,4 @@ Installers:
     Sha256: a892e7291e280045bbc7079ff12abdc07809e53a302460fb0363e239c6beeabb
     InstallerType: exe
     Switches:
-      Custom: /NoInitialAutoDisco=1 /LANG="English" /LOG="log.txt" /licensekeyname="prtgtrial"
+      Silent: /VERYSILENT /SUPPRESSMSGBOXES /LOG="PRTGLOG.txt" /LANG="English" /licensekeyname="prtgtrial" /licensekey="000014-250KFM-8FFN6H-31QZ6R-DD7ABX-GE8EQN-CXUU28-1W32K6-RPBM77-W2KV7Y" /NoInitialAutoDisco=1 /adminemail="ahoj@cosi.com"
