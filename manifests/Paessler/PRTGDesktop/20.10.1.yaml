@@ -1,0 +1,19 @@
+Version: 20.10.1
+Id: Paessler.PRTGDesktop
+Name: PRTG Desktop
+AppMoniker: prtgdesktop
+Description: Desktop application for full control over multiple PRTG installations.
+Publisher: Paessler AG
+Author: Jakub @Ash258 Čábera
+License: Freeware
+Homepage: https://www.paessler.com/prtg-desktop-app
+Tags: 'prtg,paessler'
+Installers:
+  - Arch: x64
+    Url: https://downloads.paessler.com/prtg_desktop/20.10.1/64bit/PRTG_Desktop_Full_Installer.msi
+    Sha256: 7a06cb0abbd9e409d203e2e5ada965576cb49bf17f612188fab632f2520884f4
+    InstallerType: msi
+  - Arch: x86
+    Url: https://downloads.paessler.com/prtg_desktop/20.10.1/32bit/PRTG_Desktop_Full_Installer.msi
+    Sha256: 373854bdc6d6847431bbec4678b990eeac3372da0439d2aae44b60588be21bd5
+    InstallerType: msi
