@@ -1,0 +1,14 @@
+Version: 6.0.0
+Id: VMWare.VSphereClient
+Name: VMWare VSphere Client
+AppMoniker: vmware-vsphereclient
+Author: Jakub @Ash258 Čábera
+Publisher: VMWare
+License: Copyright VMWare
+Installers:
+  - Arch: x86
+    Url: http://vsphereclient.vmware.com/vsphereclient/VMware-viclient-all-6.0.0.exe
+    Sha256: 3a5dce420a18b5a7f8c4b9d8acbad3acb83b93dfd1f44ccbe96f4702386fee48
+    InstallerType: exe
+    Switches:
+      Silent: /S /v/qn
